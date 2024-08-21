@@ -296,13 +296,13 @@ const HomePages: React.FC = () => {
 
       <div className="h-[500px]">
         <Carousel slideInterval={5000}>
-          <SliderComponents image={banner1} link="banner1" alt="image error " />
-          <SliderComponents image={banner2} link="banner1" alt="image error " />
-          <SliderComponents image={banner3} link="banner1" alt="image error " />
-          <SliderComponents image={banner4} link="banner1" alt="image error " />
-          <SliderComponents image={banner5} link="banner1" alt="image error " />
-          <SliderComponents image={banner6} link="banner1" alt="image error " />
-          <SliderComponents image={banner7} link="banner1" alt="image error " />
+          <SliderComponents image={banner1} link="http://localhpst:banner1" alt="image error " />
+          <SliderComponents image={banner2} link="http://localhpst:banner2" alt="image error " />
+          <SliderComponents image={banner3} link="http://localhpst:banner3" alt="image error " />
+          <SliderComponents image={banner4} link="http://localhpst:banner4" alt="image error " />
+          <SliderComponents image={banner5} link="http://localhpst:banner5" alt="image error " />
+          <SliderComponents image={banner6} link="http://localhpst:banner6" alt="image error " />
+          <SliderComponents image={banner7} link="http://localhpst:banner7" alt="image error " />
         </Carousel>
       </div>
 
